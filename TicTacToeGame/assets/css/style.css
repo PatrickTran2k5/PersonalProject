@@ -1,50 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-    font-family: cursive;
-}
-
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
-
-.game {
-    text-align: center;
-}
-
-.cell {
-    width: 7.5rem;
-    height: 7.5rem;
+.cell{
+    width: 75px;
+    height: 75px;
     border: 2px solid;
     box-shadow: 0 0 0 2px;
-    line-height: 7.5rem;
-    font-size: 5rem;
+    line-height: 75px;
+    font-size: 50px;
     cursor: pointer;
 }
-
-.cell-container {
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    width: 22.5rem;
+    width: 225px;
     margin: auto;
-}
-
-h1 {
-    font-size: 4rem;
-    margin-bottom: 3.6rem;
-}
-
-button {
-    cursor: pointer;
-    margin-top: 2.8rem;
-    padding: 1.2rem 2.4rem;
-    font-size: 3rem;
-    border: 2px solid #333;
-    border-radius: 16px;
 }
