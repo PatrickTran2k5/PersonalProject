@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 #gameContainer{
-    font-family: "Permanent Marker", cursive;
+    font-family: cursive;
     text-align: center;
 }
 #cellContainer{
@@ -16,4 +16,12 @@
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 30px;
+    border: 4px solid #333;
+    border-radius: 16px;
 }
